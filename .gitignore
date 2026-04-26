@@ -1,0 +1,46 @@
+# Compiled binaries
+blur_cpu
+blur_gpu
+blur_sequential
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# CUDA intermediate files
+*.ptx
+*.cubin
+
+# Generated output videos
+output/
+output/*.mp4
+output/*.avi
+
+# Input videos (large files)
+input/
+input/*.mp4
+input/*.avi
+input/*.mov
+input/*.mkv
+
+
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
